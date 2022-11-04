@@ -25,3 +25,8 @@ def create_secret(numberOfDigits=3):
     for digit in digits:
         secret = 10 * secret + digit
     return secret
+
+
+def evaluate_move(secret, guess):
+    # TODO: implement the function
+    pass

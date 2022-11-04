@@ -1,4 +1,4 @@
-from mastermind.utility import create_secret
+from mastermind.utility import create_secret, evaluate_move
 
 game_level = 3
 secret = create_secret(game_level)
